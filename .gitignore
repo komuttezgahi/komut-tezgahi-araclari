@@ -1,0 +1,49 @@
+# Local configuration and secrets
+.env
+.env.*
+config.json
+config.local.json
+*.secret.json
+client_secret*.json
+token*.json
+credentials.json
+credentials/
+secrets/
+
+# API keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Generated outputs
+output/
+outputs/
+export/
+exports/
+build/
+dist/
+tmp/
+temp/
+cache/
+
+# Logs
+*.log
+logs/
+
+# Windows and editor files
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Media drafts and heavy generated files
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# Local spreadsheet outputs
+*.local.xlsx
+*.private.xlsx
