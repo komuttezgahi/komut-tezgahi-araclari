@@ -23,8 +23,8 @@ Her araç kendi klasöründe kurulum, kullanım, gerekli ayarlar ve örnek çık
 1. İlgili `tools/` klasörüne girin.
 2. Araç README dosyasındaki gereksinimleri okuyun.
 3. İlgili klasörde `config.example.json` dosyası varsa, bu dosyayı kendi bilgisayarınıza `config.json` olarak kopyalayın.
-4. Kendi API anahtarınızı veya kanal bilginizi bu yerel config dosyasına yazın.
-5. BAT veya PowerShell dosyasını çalıştırın.
+4. Gerekli API anahtarlarını, kanal bilgilerini veya yerel ayarları bu config dosyasına yazın.
+5. Araç klasöründeki kullanım adımlarını izleyerek ilgili BAT veya PowerShell dosyasını çalıştırın.
 
 ## Not
 
