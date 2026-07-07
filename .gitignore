@@ -1,4 +1,4 @@
-# Local configuration and secrets
+# Yerel ayarlar ve gizli bilgiler
 .env
 .env.*
 config.json
@@ -10,13 +10,13 @@ credentials.json
 credentials/
 secrets/
 
-# API keys and certificates
+# API anahtarları ve sertifikalar
 *.key
 *.pem
 *.p12
 *.pfx
 
-# Generated outputs
+# Üretilen çıktılar
 output/
 outputs/
 export/
@@ -27,23 +27,27 @@ tmp/
 temp/
 cache/
 
-# Logs
+# Log dosyaları
 *.log
 logs/
 
-# Windows and editor files
+# Windows ve editör dosyaları
 Thumbs.db
 Desktop.ini
 .vscode/
 .idea/
 
-# Media drafts and heavy generated files
+# Video/ses taslakları ve büyük medya dosyaları
 *.mp4
 *.mov
 *.mkv
 *.wav
 *.mp3
+*.m4a
+*.aac
 
-# Local spreadsheet outputs
+# Yerel tablo çıktıları
 *.local.xlsx
 *.private.xlsx
+*.local.csv
+*.private.csv
