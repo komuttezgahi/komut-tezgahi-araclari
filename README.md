@@ -12,17 +12,11 @@ Buradaki dosyalar; YouTube kanal analizi, içerik üretim otomasyonu, PowerShell
 - Script'i sese, PDF'i görsele ve ses/görsel paketini taslak videoya dönüştüren pipeline örnekleri
 - PowerShell, BAT, FFmpeg ve Excel odaklı yerel üretim araçları
 
-## Araç Klasörleri
+## Araçlar
 
-```text
-tools/
-  kanal-videolari-excel/
-  outlier-video-bulucu/
-  scriptten-videoya/
-  ffmpeg-video-pipeline/
-```
+Araç dosyaları, ilgili video yayınlandıkça `tools/` klasörüne eklenecek.
 
-Her araç klasöründe kurulum, kullanım, gerekli ayarlar ve örnek çıktı bilgileri yer alacak.
+Her araç kendi klasöründe kurulum, kullanım, gerekli ayarlar ve örnek çıktı bilgileriyle birlikte paylaşılacak.
 
 ## Kullanım
 
