@@ -1,0 +1,7 @@
+{
+  "youtube_api_key": "YOUR_YOUTUBE_DATA_API_KEY_HERE",
+  "channel_id": "UC_EXAMPLE_CHANNEL_ID",
+  "output_folder": "outputs",
+  "timezone": "Europe/Istanbul",
+  "language": "tr"
+}
