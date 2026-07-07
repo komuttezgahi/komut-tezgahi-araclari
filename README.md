@@ -1,18 +1,18 @@
 # Komut Tezgahı Araçları
 
-Komut Tezgahı kanalında paylaşılan yerel içerik, veri ve otomasyon araçları için ana depo.
+Komut Tezgahı kanalında anlatılan yerel içerik, veri ve otomasyon araçlarının paylaşım deposu.
 
-Bu repo, YouTube kanal analizi, içerik üretim otomasyonu, PowerShell/BAT iş akışları, FFmpeg tabanlı video üretimi ve Excel çıktıları gibi konularda paylaşılacak araçları toplamak için oluşturuldu.
+Buradaki dosyalar; YouTube kanal analizi, içerik üretim otomasyonu, PowerShell/BAT iş akışları, FFmpeg tabanlı video üretimi ve Excel çıktıları gibi süreçleri kendi bilgisayarında çalıştırmak isteyenler için hazırlanır.
 
 ## Ne Bulacaksınız?
 
-- YouTube Data API v3 ile kanal ve video verisi çekme araçları
-- Bir YouTube kanalındaki videolari Excel'e aktarma iş akışları
+- YouTube Data API v3 ile kanal ve video verisi çekme örnekleri
+- Bir YouTube kanalındaki videoları Excel'e aktarma iş akışları
 - Outlier video bulma ve kanal analizi denemeleri
 - Script'i sese, PDF'i görsele ve ses/görsel paketini taslak videoya dönüştüren pipeline örnekleri
 - PowerShell, BAT, FFmpeg ve Excel odaklı yerel üretim araçları
 
-## Planlanan Araç Klasörleri
+## Araç Klasörleri
 
 ```text
 tools/
@@ -22,21 +22,19 @@ tools/
   ffmpeg-video-pipeline/
 ```
 
-İlk araçlar video yayınlandıkça bu klasörlere eklenecek. Her araç kendi README dosyasında kurulum, kullanım, gerekli ayarlar ve örnek çıktı bilgilerini taşıyacak.
+Her araç klasöründe kurulum, kullanım, gerekli ayarlar ve örnek çıktı bilgileri yer alacak.
 
-## Güvenlik Notu
+## Kullanım
 
-Bu repoda gerçek API anahtarı, token, client secret, kanal hesabına ait özel dosyalar veya kişisel veri bulunmamalıdır.
-
-Araçları kullanırken kendi bilgisayarınızda config.json veya benzeri yerel ayar dosyası oluşturabilirsiniz; fakat bu dosyalar repoya yüklenmemelidir. Örnek ayarlar için config.example.json dosyalarını kullanın.
-
-## Genel Kullanım Mantığı
-
-1. İlgili araç klasörüne girin.
-2. README dosyasındaki gereksinimleri okuyun.
-3. config.example.json dosyasını kopyalayıp kendi yerel config dosyanızı oluşturun.
-4. Kendi API anahtarınızı veya kanal bilginizi yerel config dosyanıza ekleyin.
+1. İlgili `tools/` klasörüne girin.
+2. Araç README dosyasındaki gereksinimleri okuyun.
+3. Varsa `config.example.json` dosyasını kendi bilgisayarınızda `config.json` olarak kopyalayın.
+4. Kendi API anahtarınızı veya kanal bilginizi bu yerel config dosyasına yazın.
 5. BAT veya PowerShell dosyasını çalıştırın.
+
+## Not
+
+API anahtarınızı, token dosyalarınızı ve kişisel dosyalarınızı kimseyle paylaşmayın. Ayrıntılı kontrol listesi için `docs/guvenlik-notlari.md` dosyasına bakabilirsiniz.
 
 ## Kanal
 
@@ -44,4 +42,4 @@ YouTube: https://www.youtube.com/@komuttezgahi
 
 ## Lisans
 
-Bu depo MIT lisansı ile paylaşılır. Detaylar için LICENSE dosyasına bakın.
+Bu depo MIT lisansı ile paylaşılır. Detaylar için `LICENSE` dosyasına bakın.
