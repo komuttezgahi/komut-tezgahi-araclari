@@ -1,0 +1,9 @@
+{
+  "youtube_api_key": "YOUR_YOUTUBE_DATA_API_KEY_HERE",
+  "channel_handle": "@example",
+  "channel_id_fallback": "UC_EXAMPLE_CHANNEL_ID",
+  "min_long_video_seconds": 181,
+  "sort_oldest_to_newest": true,
+  "output_folder": "outputs",
+  "timezone": "Turkey Standard Time"
+}
